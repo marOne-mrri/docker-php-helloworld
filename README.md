@@ -15,12 +15,12 @@ Finally, docker copies everything in src/ inside this repository to the /var/www
 # Setup
 
  - Ensure you have Docker installed
- - `git clone` this repository
- - `sudo docker build -t docker-php-helloworld .` 
- - `sudo docker run -p 80:80 docker-php-helloworld`
+ - `git clone https://github.com/marOne-mrri/docker-php-helloworld.git`
+ - `docker build -t docker-php-helloworld .` 
+ - `docker run -p 80:80 docker-php-helloworld`
 
 # What You Should See
 
 ![Docker PHP App](https://image.ibb.co/cTxSf7/whale.png "Hello World")
 
-This was originally created to test Amazon Elastic Container Service which is why Moby Dock says "Hello ECS!"
+This was originally created to test my project: [test-env-loadbalancing](https://github.com/marOne-mrri/test-env-loadbalancing) which solves the problem of the traffic jam that might happen when deploying to test envs.
